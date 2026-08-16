@@ -85,3 +85,14 @@ header p {
   transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(31, 58, 110, 0.10);
 }
+.back-link {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: #1F3A6E;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
