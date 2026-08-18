@@ -96,3 +96,40 @@ header p {
 .back-link:hover {
   text-decoration: underline;
 }
+.policy-section {
+  margin-top: 64px;
+}
+
+.policy-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 28px;
+}
+
+.policy-card {
+  padding: 24px;
+  border: 1px solid #C4F0D6;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+
+.policy-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #13A565;
+}
+
+@media (max-width: 800px) {
+  .policy-cards {
+    grid-template-columns: 1fr;
+  }
+}
+.policy-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.policy-card:visited {
+  color: inherit;
+}
